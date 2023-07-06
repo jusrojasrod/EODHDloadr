@@ -84,17 +84,15 @@ class TickerBase:
                 timeout=timeout
             )
 
-            # data = requests.get(url, timeout=timeout)
-            data = data.json()
             # data = pd.DataFrame(data)
             # data.set_index(['date'], inplace=True)
-            print("here!!!")
 
-            return data
-
+            data = data.json
         except Exception:
             print(f"{self.ticker} not found!!!")
             pass
+
+        
 
 
 
