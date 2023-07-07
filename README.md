@@ -1,4 +1,4 @@
-# EODHD downloader
+# EODHDloadr
 
 
 
